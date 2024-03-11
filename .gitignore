@@ -1,0 +1,8 @@
+#Ignore all zip
+*.zip
+
+#Ignore env
+
+#Ignore node_modules
+/node_modules
+

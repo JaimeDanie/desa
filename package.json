@@ -1,0 +1,28 @@
+{
+  "name": "server_desa_admin",
+  "version": "1.0.0",
+  "description": "Service for dashboard NexoAdmin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "migrate": "node ./routes/database/migrations.js"
+  },
+  "author": "Jesus Escorcia Pino",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.11.9",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "jsonwebtoken": "^9.0.1",
+    "node-cron": "^3.0.2",
+    "pg-promise": "^11.5.3",
+    "qs": "^6.11.2",
+    "yup": "^1.2.0"
+  }
+}
