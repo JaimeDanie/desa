@@ -21,7 +21,7 @@ const createMasterUsersTable = async () => {
     const defaultPassword = await bcrypt.hash("Admini2023@", 10);
     const insertDefaultUser = `
             INSERT INTO master_users (email, password, avatar, first_name, last_name, rol)
-            VALUES ('dev@jesusescorcia.com', '${defaultPassword}', '/assets/avatars/avatar-carson-darrin.png', 'Jesus', 'Escorcia', 'Administrador');
+            VALUES ('dev@jaime.com', '${defaultPassword}', '/assets/avatars/avatar-carson-darrin.png', 'Jaime', 'Barros', 'Administrador');
         `;
 
     await db.none(insertDefaultUser);
